@@ -1,0 +1,10 @@
+[[navbar]]
+  identifier = "index"
+  name = "ようこそ"
+  url = "/ja-JP/"
+  weight = 1
+[[navbar]]
+  identifier = "about"
+  name = "彼らは何者か"
+  url = "/ja-JP/about/"
+  weight = 2

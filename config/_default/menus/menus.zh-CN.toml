@@ -1,0 +1,10 @@
+[[navbar]]
+  identifier = "index"
+  name = "欢迎"
+  url = "/zh-CN/"
+  weight = 1
+[[navbar]]
+  identifier = "about"
+  name = "关于我"
+  url = "/zh-CN/about/"
+  weight = 2

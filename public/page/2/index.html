@@ -1,0 +1,836 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang='en'><head>
+	<meta name="generator" content="Hugo 0.135.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href='http://localhost:1313/favicon.ico' type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>sarilee</title>
+
+    
+
+    
+
+    
+    <meta name="author" content="kaiiiz" />
+    
+
+    
+        <meta property="og:url" content="http://localhost:1313/">
+  <meta property="og:site_name" content="sarilee">
+  <meta property="og:title" content="sarilee">
+  <meta property="og:description" content="Sari Lee Manga artist{{ $image := .Resources.GetMatch “avatar_sari_lee.jpg” }} ">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+
+    
+
+    
+        
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="sarilee">
+  <meta name="twitter:description" content="Sari Lee Manga artist{{ $image := .Resources.GetMatch “avatar_sari_lee.jpg” }} ">
+
+    <link rel="stylesheet" href="/style.css" integrity="">
+
+
+
+
+
+    
+    <script>
+        if (!('theme' in localStorage)) {
+            localStorage.theme = 'light';
+        }
+
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.setAttribute("data-theme", "dark");
+        } else {
+            document.documentElement.setAttribute("data-theme", "light");
+        }
+    </script>
+<script defer src="/js/header.js" integrity=""></script>
+
+
+
+    <script defer src="/js/zooming.js" integrity=""></script>
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    <script defer src="/js/search-en.js" integrity=""></script>
+
+
+
+
+
+
+    
+</head>
+<body><header>
+    <div id="header_left">
+        <div id="sidebar_btn">
+            <input type="checkbox" id="sidebar_btn_input" class="hidden" />
+            <label id="sidebar_btn_label" for="sidebar_btn_input">
+                <svg id="menu_icon" width="26px" height="26px" viewBox="0 0 24 24">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24" height="24" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+</svg>
+
+</svg>
+            </label>
+            <label id="sidebar_canvas_overlay_wrapper" for="sidebar_btn_input">
+                <div id="sidebar_canvas_overlay"></div>
+            </label>
+            <div id="sidebar">
+                <ul><li>
+                            <a href="/setup/">Setup</a></li><li>
+                            <a href="/changelog/">Changelog</a></li><li>
+                            <a href="/configuration/">Configuration</a>
+    <ul>
+        
+
+            
+                <li>
+                    
+                        <a href="/configuration/site">Site Settings</a>
+                    
+                </li>
+            
+        
+
+            
+                <li>
+                    
+                        <a href="/configuration/theme">Theme Settings</a>
+                    
+                </li>
+            
+        
+
+            
+                <li>
+                    
+                        <a href="/configuration/page">Page Settings</a>
+                    
+                </li>
+            
+        
+    </ul>
+</li><li>
+                            <a href="/layouts/">Layouts</a>
+    <ul>
+        
+
+            
+                <li>
+                    
+                        <span><a href="/layouts/balloon">Balloon</a></span>
+                    
+    <ul>
+        
+
+            
+                <li>
+                    
+                        <a href="/layouts/balloon/demo">Demo</a>
+                    
+                </li>
+            
+        
+
+            
+                <li>
+                    
+                        <a href="/layouts/balloon/docs">Document</a>
+                    
+                </li>
+            
+        
+    </ul>
+</li>
+            
+        
+
+            
+                <li>
+                    
+                        <span><a href="/layouts/blank">Blank</a></span>
+                    
+    <ul>
+        
+
+            
+                <li>
+                    
+                        <a href="/layouts/blank/demo">Demo</a>
+                    
+                </li>
+            
+        
+
+            
+                <li>
+                    
+                        <a href="/layouts/blank/docs">Document</a>
+                    
+                </li>
+            
+        
+    </ul>
+</li>
+            
+        
+
+            
+                <li>
+                    
+                        <span><a href="/layouts/bookcase">Bookcase</a></span>
+                    
+    <ul>
+        
+
+            
+                <li>
+                    
+                        <a href="/layouts/bookcase/demo">Demo</a>
+                    
+                </li>
+            
+        
+
+            
+                <li>
+                    
+                        <a href="/layouts/bookcase/docs">Document</a>
+                    
+                </li>
+            
+        
+    </ul>
+</li>
+            
+        
+
+            
+                <li>
+                    
+                        <span><a href="/layouts/gallery">Gallery</a></span>
+                    
+    <ul>
+        
+
+            
+                <li>
+                    
+                        <a href="/layouts/gallery/demo">Demo</a>
+                    
+                </li>
+            
+        
+
+            
+                <li>
+                    
+                        <a href="/layouts/gallery/docs">Document</a>
+                    
+                </li>
+            
+        
+    </ul>
+</li>
+            
+        
+
+            
+                <li>
+                    
+                        <span><a href="/layouts/list">List</a></span>
+                    
+    <ul>
+        
+
+            
+                <li>
+                    
+                        <a href="/layouts/list/demo">Demo</a>
+                    
+                </li>
+            
+        
+
+            
+                <li>
+                    
+                        <a href="/layouts/list/docs">Document</a>
+                    
+                </li>
+            
+        
+    </ul>
+</li>
+            
+        
+
+            
+                <li>
+                    
+                        <span><a href="/layouts/postcard">Postcard</a></span>
+                    
+    <ul>
+        
+
+            
+                <li>
+                    
+                        <a href="/layouts/postcard/demo">Demo</a>
+                    
+                </li>
+            
+        
+
+            
+                <li>
+                    
+                        <a href="/layouts/postcard/docs">Document</a>
+                    
+                </li>
+            
+        
+    </ul>
+</li>
+            
+        
+    </ul>
+</li><li>
+                            <a href="/shortcodes/">Shortcodes</a></li><li>
+                            <a href="/posts/">Posts</a></li></ul>
+            </div>
+        </div>
+    
+        <div class="brand">
+            <div>
+                <a href="/">Monochrome</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="toolbox">
+        <div id="theme_tool">
+            <svg id="dark_mode_btn" class="toolbox-btn" width="18px" height="18px" viewBox="0 0 24 24">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24" height="24" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+</svg>
+
+</svg>
+            <svg id="light_mode_btn" class="toolbox-btn" width="18px" height="18px" viewBox="0 0 24 24">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24" height="24" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+</svg>
+
+</svg>
+        </div>
+
+        
+            <div id="search_tool">
+                <svg id="search_btn" class="toolbox-btn" width="18px" height="18px" viewBox="0 0 24 24">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24" height="24" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+</svg>
+
+</svg><div id="search_menu_wrapper" class="hidden">
+    <div id="search_menu">
+        <div id="search_menu_toolbar">
+            <div id="search_menu_input_wrapper">
+                <input id="search_menu_input" type="text" placeholder='Search Posts'>
+            </div>
+            <div id="search_menu_close_btn">
+                <svg width="18px" height="18px" viewBox="0 0 24 24">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24" height="24" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line>
+</svg>
+
+</svg>
+            </div>
+        </div>
+        <div id="search_menu_results">
+        </div>
+    </div>
+</div>
+</div>
+        
+
+        
+            <div id="translation_tool" class="dropdown-wrapper pure-menu pure-menu-horizontal toolbox-btn" onclick="void(0)">
+                <ul class="pure-menu-list">
+                    <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+                        <div class="dropdown-btn pure-menu-link">
+                            <svg width="18px" height="18px" viewBox="0 0 24 24">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24" height="24" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+</svg>
+
+</svg>
+                            <span class="dropdown-desc">English</span>
+                        </div>
+                        <ul class="pure-menu-children">
+                            
+                            <li class="pure-menu-item">
+                                <a href="http://localhost:1313/" class="pure-menu-link">English</a>
+                            </li>
+                            
+                            <li class="pure-menu-item">
+                                <a href="http://localhost:1313/it-it/" class="pure-menu-link">Italiano</a>
+                            </li>
+                            
+                            <li class="pure-menu-item">
+                                <a href="http://localhost:1313/fr-fr/" class="pure-menu-link">Française</a>
+                            </li>
+                            
+                            <li class="pure-menu-item">
+                                <a href="http://localhost:1313/ja-jp/" class="pure-menu-link">日本語</a>
+                            </li>
+                            
+                            <li class="pure-menu-item">
+                                <a href="http://localhost:1313/zh-cn/" class="pure-menu-link">中文</a>
+                            </li>
+                            
+                            <li class="pure-menu-item">
+                                <a href="http://localhost:1313/de-de/" class="pure-menu-link">Deutsch</a>
+                            </li>
+                            
+                            <li class="pure-menu-item">
+                                <a href="http://localhost:1313/zh-tw/" class="pure-menu-link"></a>
+                            </li>
+                            
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        
+    </div>
+</header>
+<nav id="navbar" class="pure-menu">
+    <ul class="pure-menu-list"><li class="navbar-item pure-menu-item ">
+                    
+                        <a href="/setup/" class="pure-menu-link">Setup</a>
+                    
+                </li><li class="navbar-item pure-menu-item ">
+                    
+                        <a href="/changelog/" class="pure-menu-link">Changelog</a>
+                    
+                </li><li class="navbar-item navbar-dropdown pure-menu-item pure-menu-has-children pure-menu-allow-hover ">
+                    
+                        <a href="/configuration/" class="pure-menu-link">Configuration</a>
+                    
+                    <ul class="pure-menu-children">
+
+    
+        <li class="pure-menu-item">
+            
+                <a href="/configuration/site" class="pure-menu-link">Site Settings</a>
+            
+        </li>
+    
+
+
+    
+        <li class="pure-menu-item">
+            
+                <a href="/configuration/theme" class="pure-menu-link">Theme Settings</a>
+            
+        </li>
+    
+
+
+    
+        <li class="pure-menu-item">
+            
+                <a href="/configuration/page" class="pure-menu-link">Page Settings</a>
+            
+        </li>
+    
+
+</ul>
+                </li><li class="navbar-item navbar-dropdown pure-menu-item pure-menu-has-children pure-menu-allow-hover ">
+                    
+                        <a href="/layouts/" class="pure-menu-link">Layouts</a>
+                    
+                    <ul class="pure-menu-children">
+
+    
+        <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+            
+                <a href="/layouts/balloon" class="pure-menu-link">Balloon</a>
+            
+            <ul class="pure-menu-children">
+
+    
+        <li class="pure-menu-item">
+            
+                <a href="/layouts/balloon/demo" class="pure-menu-link">Demo</a>
+            
+        </li>
+    
+
+
+    
+        <li class="pure-menu-item">
+            
+                <a href="/layouts/balloon/docs" class="pure-menu-link">Document</a>
+            
+        </li>
+    
+
+</ul>
+        </li>
+    
+
+
+    
+        <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+            
+                <a href="/layouts/blank" class="pure-menu-link">Blank</a>
+            
+            <ul class="pure-menu-children">
+
+    
+        <li class="pure-menu-item">
+            
+                <a href="/layouts/blank/demo" class="pure-menu-link">Demo</a>
+            
+        </li>
+    
+
+
+    
+        <li class="pure-menu-item">
+            
+                <a href="/layouts/blank/docs" class="pure-menu-link">Document</a>
+            
+        </li>
+    
+
+</ul>
+        </li>
+    
+
+
+    
+        <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+            
+                <a href="/layouts/bookcase" class="pure-menu-link">Bookcase</a>
+            
+            <ul class="pure-menu-children">
+
+    
+        <li class="pure-menu-item">
+            
+                <a href="/layouts/bookcase/demo" class="pure-menu-link">Demo</a>
+            
+        </li>
+    
+
+
+    
+        <li class="pure-menu-item">
+            
+                <a href="/layouts/bookcase/docs" class="pure-menu-link">Document</a>
+            
+        </li>
+    
+
+</ul>
+        </li>
+    
+
+
+    
+        <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+            
+                <a href="/layouts/gallery" class="pure-menu-link">Gallery</a>
+            
+            <ul class="pure-menu-children">
+
+    
+        <li class="pure-menu-item">
+            
+                <a href="/layouts/gallery/demo" class="pure-menu-link">Demo</a>
+            
+        </li>
+    
+
+
+    
+        <li class="pure-menu-item">
+            
+                <a href="/layouts/gallery/docs" class="pure-menu-link">Document</a>
+            
+        </li>
+    
+
+</ul>
+        </li>
+    
+
+
+    
+        <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+            
+                <a href="/layouts/list" class="pure-menu-link">List</a>
+            
+            <ul class="pure-menu-children">
+
+    
+        <li class="pure-menu-item">
+            
+                <a href="/layouts/list/demo" class="pure-menu-link">Demo</a>
+            
+        </li>
+    
+
+
+    
+        <li class="pure-menu-item">
+            
+                <a href="/layouts/list/docs" class="pure-menu-link">Document</a>
+            
+        </li>
+    
+
+</ul>
+        </li>
+    
+
+
+    
+        <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+            
+                <a href="/layouts/postcard" class="pure-menu-link">Postcard</a>
+            
+            <ul class="pure-menu-children">
+
+    
+        <li class="pure-menu-item">
+            
+                <a href="/layouts/postcard/demo" class="pure-menu-link">Demo</a>
+            
+        </li>
+    
+
+
+    
+        <li class="pure-menu-item">
+            
+                <a href="/layouts/postcard/docs" class="pure-menu-link">Document</a>
+            
+        </li>
+    
+
+</ul>
+        </li>
+    
+
+</ul>
+                </li><li class="navbar-item pure-menu-item ">
+                    
+                        <a href="/shortcodes/" class="pure-menu-link">Shortcodes</a>
+                    
+                </li><li class="navbar-item pure-menu-item ">
+                    
+                        <a href="/posts/" class="pure-menu-link">Posts</a>
+                    
+                </li></ul>
+</nav>
+<main>
+            <div id="content" class="content-margin">
+                
+
+
+    <div class="content-margin">
+
+
+
+<article >
+    
+    
+        
+        
+    
+    
+<h1 id="sari-lee-manga-artist" class="header-anchor-wrapper">Sari Lee Manga artist
+  <a href="#sari-lee-manga-artist" class="header-anchor-link">
+    <svg width="16px" height="16px" viewBox="0 0 24 24">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24" height="24" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <line x1="4" y1="9" x2="20" y2="9"></line><line x1="4" y1="15" x2="20" y2="15"></line><line x1="10" y1="3" x2="8" y2="21"></line><line x1="16" y1="3" x2="14" y2="21"></line>
+</svg>
+
+</svg>
+  </a>
+</h1>
+
+<p>{{ $image := .Resources.GetMatch &ldquo;avatar_sari_lee.jpg&rdquo; }}
+<img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}"></p>
+
+</article>
+</div>
+
+
+
+
+
+<div class="postcard-layout content-margin">
+    
+        <a href="http://localhost:1313/ja-jp/about/">
+            <div class="postcard-item">
+                <div class="postcard-title">
+                    <span>Chi sono JP</span>
+                </div>
+                <div class="postcard-summary">
+                    <span>Chi sono JP1987年ローマ（イタリア）生まれ。現在はベルリン（ドイツ）在住。
+子供の頃から、絵を描いたり物語を考えたりするのが大好きでした。初めてアニメ（セーラームーン）を見て日本の漫画の世界を知ったとき、私の人生に光が差し込みました。
+独学で絵を描き続け、サイレントマンガオーディションに3回（第15回、第16回、第17回）応募しました。
+2024年にはルッカ・マンガ・アカデミーの隔年開催のマンガコースを修了しました。アカデミーではマンガ編集コースも履修しました。
+現在は、「The future is in your hands」のパイロット版の制作に取り組んでいます。
+外国語・文化、観光・文化遺産の2つの学位を取得しており、イタリア、中国、フランス、ドイツなど、さまざまな国に住んだことがあります。
+食べることと外国の文化や言語が好きです（イタリア語、英語、フランス語、中国語（北京語）、ドイツ語が話せます）。
+</span>
+                </div>
+                <div class="postcard-metadata">
+                    <span>0001/01/01 · 
+    
+        
+    
+
+    
+        
+            <span></span>
+        
+    
+</span>
+                </div>
+            </div>
+        </a>
+    
+        <a href="http://localhost:1313/zh-cn/about/">
+            <div class="postcard-item">
+                <div class="postcard-title">
+                    <span>关于我</span>
+                </div>
+                <div class="postcard-summary">
+                    <span>关于我我于1987年出生在意大利罗马，现在住在德国柏林。
+从小我就喜欢绘画和创作故事。在看过第一部名为《美少女战士》（Sailor Moon）的动画片并接触到日本漫画之后，它为我打开了通往新世界的大门。
+最初，我自学绘画，并参加了三届Silen Manga Audition大赛（即第15、第16、第17届）。
+2024年，我完成了在卢卡漫画学院（Lucca Manga Academy）为期两年的漫画课程，并修读了漫画编辑课程后，顺利毕业。
+目前我正在创作《未来掌握在你手中》（The future is in your hands）。
+我拥有外国语言与文化、旅游与文化遗产两个学位，并曾在多个国家生活过，其中包括包括意大利、中国、法国和德国。
+我是个吃货并钟情于外国文化和语言，能熟练使用意大利语、英语、法语、中文普通话和德语进行交流。
+</span>
+                </div>
+                <div class="postcard-metadata">
+                    <span>0001/01/01 · 
+    
+        
+    
+
+    
+        
+            <span></span>
+        
+    
+</span>
+                </div>
+            </div>
+        </a>
+    
+    
+    <ul class="pagination pagination-default">
+      <li class="page-item">
+        <a href="/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/" aria-label="Page 1" class="page-link" role="button">1</a>
+      </li>
+      <li class="page-item active">
+        <a aria-current="page" aria-label="Page 2" class="page-link" role="button">2</a>
+      </li>
+      <li class="page-item disabled">
+        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
+      </li>
+      <li class="page-item disabled">
+        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
+      </li>
+    </ul>
+</div>
+
+
+
+
+
+
+                
+                    
+                
+            </div>
+        </main>
+<footer>
+    <article>Copyright © 2021-2024 by kaiiiz</article>
+</footer>
+
+</body>
+</html>

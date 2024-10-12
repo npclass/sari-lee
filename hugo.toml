@@ -1,0 +1,9 @@
+baseURL = 'http://sarilee.art/'
+languageCode = 'en-us'
+title = 'sarilee'
+theme = 'hugo-theme-monochrome'
+senableGitInfo = true
+[module]
+  [[module.mounts]]
+    source = 'assets'
+    target = 'assets'

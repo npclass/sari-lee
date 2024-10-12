@@ -1,0 +1,10 @@
+[[navbar]]
+  identifier = "index"
+  name = "Benvenuti"
+  url = "/it-IT/"
+  weight = 1
+[[navbar]]
+  identifier = "about"
+  name = "Chi Sono"
+  url = "/it-IT/about/"
+  weight = 2

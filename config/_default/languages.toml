@@ -1,0 +1,35 @@
+[en]
+contentDir = "content/en"
+languageName = "English"
+languageCode = "en"
+weight = 1
+
+[it-IT]
+contentDir = "content/it-IT"
+languageName = "Italiano"
+languageCode = "it-IT"
+weight = 2
+
+[fr-FR]
+contentDir = "content/fr-FR"
+languageName = "Française"
+languageCode = "fr-FR"
+weight = 3
+
+[ja-JP]
+contentDir = "content/ja-JP"
+languageName = "日本語"
+languageCode = "ja-JP"
+weight = 4
+
+[zh-CN]
+contentDir = "content/zh-CN"
+languageName = "中文"
+languageCode = "zh-CN"
+weight = 5
+
+[de-DE]
+contentDir = "content/de-DE"
+languageName = "Deutsch"
+languageCode = "de-DE"
+weight = 6
