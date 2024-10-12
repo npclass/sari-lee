@@ -2,164 +2,166 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://sarilee.art/fr-fr/about/</loc>
+    <loc>http://localhost:1313/fr-fr/about/</loc>
+    <lastmod>2024-10-12T18:29:36+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://sarilee.art/about/"
+                href="http://localhost:1313/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it-IT"
-                href="http://sarilee.art/it-it/about/"
+                href="http://localhost:1313/it-it/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-JP"
-                href="http://sarilee.art/ja-jp/about/"
+                href="http://localhost:1313/ja-jp/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://sarilee.art/zh-cn/about/"
+                href="http://localhost:1313/zh-cn/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-DE"
-                href="http://sarilee.art/de-de/about/"
+                href="http://localhost:1313/de-de/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="http://sarilee.art/fr-fr/about/"
+                href="http://localhost:1313/fr-fr/about/"
                 />
   </url><url>
-    <loc>http://sarilee.art/fr-fr/categories/</loc>
+    <loc>http://localhost:1313/fr-fr/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://sarilee.art/categories/"
+                href="http://localhost:1313/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it-IT"
-                href="http://sarilee.art/it-it/categories/"
+                href="http://localhost:1313/it-it/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-JP"
-                href="http://sarilee.art/ja-jp/categories/"
+                href="http://localhost:1313/ja-jp/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://sarilee.art/zh-cn/categories/"
+                href="http://localhost:1313/zh-cn/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-DE"
-                href="http://sarilee.art/de-de/categories/"
+                href="http://localhost:1313/de-de/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="http://sarilee.art/fr-fr/categories/"
+                href="http://localhost:1313/fr-fr/categories/"
                 />
   </url><url>
-    <loc>http://sarilee.art/fr-fr/series/</loc>
+    <loc>http://localhost:1313/fr-fr/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://sarilee.art/series/"
+                href="http://localhost:1313/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it-IT"
-                href="http://sarilee.art/it-it/series/"
+                href="http://localhost:1313/it-it/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-JP"
-                href="http://sarilee.art/ja-jp/series/"
+                href="http://localhost:1313/ja-jp/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://sarilee.art/zh-cn/series/"
+                href="http://localhost:1313/zh-cn/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-DE"
-                href="http://sarilee.art/de-de/series/"
+                href="http://localhost:1313/de-de/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="http://sarilee.art/fr-fr/series/"
+                href="http://localhost:1313/fr-fr/series/"
                 />
   </url><url>
-    <loc>http://sarilee.art/fr-fr/tags/</loc>
+    <loc>http://localhost:1313/fr-fr/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://sarilee.art/tags/"
+                href="http://localhost:1313/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it-IT"
-                href="http://sarilee.art/it-it/tags/"
+                href="http://localhost:1313/it-it/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-JP"
-                href="http://sarilee.art/ja-jp/tags/"
+                href="http://localhost:1313/ja-jp/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://sarilee.art/zh-cn/tags/"
+                href="http://localhost:1313/zh-cn/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-DE"
-                href="http://sarilee.art/de-de/tags/"
+                href="http://localhost:1313/de-de/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="http://sarilee.art/fr-fr/tags/"
+                href="http://localhost:1313/fr-fr/tags/"
                 />
   </url><url>
-    <loc>http://sarilee.art/fr-fr/</loc>
+    <loc>http://localhost:1313/fr-fr/</loc>
+    <lastmod>2024-10-12T18:29:36+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://sarilee.art/"
+                href="http://localhost:1313/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it-IT"
-                href="http://sarilee.art/it-it/"
+                href="http://localhost:1313/it-it/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-JP"
-                href="http://sarilee.art/ja-jp/"
+                href="http://localhost:1313/ja-jp/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://sarilee.art/zh-cn/"
+                href="http://localhost:1313/zh-cn/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-DE"
-                href="http://sarilee.art/de-de/"
+                href="http://localhost:1313/de-de/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="http://sarilee.art/fr-fr/"
+                href="http://localhost:1313/fr-fr/"
                 />
   </url>
 </urlset>

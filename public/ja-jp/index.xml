@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Welcome on sarilee</title>
-    <link>http://sarilee.art/ja-jp/</link>
+    <link>http://localhost:1313/ja-jp/</link>
     <description>Recent content in Welcome on sarilee</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja-JP</language><atom:link href="http://sarilee.art/ja-jp/index.xml" rel="self" type="application/rss+xml" />
+    <language>ja-JP</language><atom:link href="http://localhost:1313/ja-jp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About me</title>
-      <link>http://sarilee.art/ja-jp/about/</link>
+      <link>http://localhost:1313/ja-jp/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://sarilee.art/ja-jp/about/</guid>
+      <guid>http://localhost:1313/ja-jp/about/</guid>
       <description>&lt;h1 id=&#34;彼らは何者か&#34; class=&#34;header-anchor-wrapper&#34;&gt;彼らは何者か
   &lt;a href=&#34;#%e5%bd%bc%e3%82%89%e3%81%af%e4%bd%95%e8%80%85%e3%81%8b&#34; class=&#34;header-anchor-link&#34;&gt;
     &lt;svg width=&#34;16px&#34; height=&#34;16px&#34; viewBox=&#34;0 0 24 24&#34;&gt;
