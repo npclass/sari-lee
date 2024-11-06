@@ -13,7 +13,7 @@ tag = "tags"
 series = "series"
 
 [params]
-color_scheme = "dark" # "light" or "dark"
+color_scheme = "dark"
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]

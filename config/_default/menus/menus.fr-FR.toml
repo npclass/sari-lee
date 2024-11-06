@@ -1,10 +1,20 @@
 [[navbar]]
   identifier = "index"
-  name = "Bienvenue"
+  name = "Accueil"
   url = "/fr-FR/"
   weight = 1
 [[navbar]]
   identifier = "about"
-  name = "Qui sont-ils"
+  name = "À propos"
   url = "/fr-FR/about/"
   weight = 2
+[[navbar]]
+  identifier = "contact"
+  name = "Contact"
+  url = "/fr-FR/contact/"
+  weight = 3
+[[navbar]]
+  identifier = "gallery"
+  name = "Galerie"
+  url = "/fr-FR/gallery/"
+  weight = 4

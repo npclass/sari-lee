@@ -1,1 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><sitemap><loc>http://sarilee.art/en/sitemap.xml</loc><lastmod>2024-10-12T18:29:36+02:00</lastmod></sitemap><sitemap><loc>http://sarilee.art/it-it/sitemap.xml</loc><lastmod>2024-10-12T18:29:36+02:00</lastmod></sitemap><sitemap><loc>http://sarilee.art/fr-fr/sitemap.xml</loc><lastmod>2024-10-12T18:29:36+02:00</lastmod></sitemap><sitemap><loc>http://sarilee.art/ja-jp/sitemap.xml</loc><lastmod>2024-10-12T18:29:36+02:00</lastmod></sitemap><sitemap><loc>http://sarilee.art/zh-cn/sitemap.xml</loc><lastmod>2024-10-12T18:29:36+02:00</lastmod></sitemap><sitemap><loc>http://sarilee.art/de-de/sitemap.xml</loc><lastmod>2024-10-12T18:29:36+02:00</lastmod></sitemap></sitemapindex>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>http://localhost:1313/en/sitemap.xml</loc>
+    
+      <lastmod>2024-10-12T18:29:36+02:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>http://localhost:1313/it-it/sitemap.xml</loc>
+    
+      <lastmod>2024-10-12T18:29:36+02:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>http://localhost:1313/fr-fr/sitemap.xml</loc>
+    
+      <lastmod>2024-10-12T18:29:36+02:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>http://localhost:1313/ja-jp/sitemap.xml</loc>
+    
+      <lastmod>2024-10-12T18:29:36+02:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>http://localhost:1313/zh-cn/sitemap.xml</loc>
+    
+      <lastmod>2024-10-12T18:29:36+02:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>http://localhost:1313/de-de/sitemap.xml</loc>
+    
+      <lastmod>2024-10-12T18:29:36+02:00</lastmod>
+    
+  </sitemap>
+  
+</sitemapindex>

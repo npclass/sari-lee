@@ -1,6 +1,6 @@
 [[navbar]]
   identifier = "index"
-  name = "欢迎"
+  name = "主页"
   url = "/zh-CN/"
   weight = 1
 [[navbar]]
@@ -8,3 +8,13 @@
   name = "关于我"
   url = "/zh-CN/about/"
   weight = 2
+[[navbar]]
+  identifier = "contact"
+  name = "联系"
+  url = "/zh-CN/contact/"
+  weight = 3
+[[navbar]]
+  identifier = "gallery"
+  name = "图集"
+  url = "/zh-CN/gallery/"
+  weight = 4

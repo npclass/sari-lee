@@ -1,6 +1,6 @@
 [[navbar]]
   identifier = "index"
-  name = "Benvenuti"
+  name = "Home"
   url = "/it-IT/"
   weight = 1
 [[navbar]]
@@ -8,3 +8,13 @@
   name = "Chi Sono"
   url = "/it-IT/about/"
   weight = 2
+[[navbar]]
+  identifier = "contact"
+  name = "Contatto"
+  url = "/it-IT/contact/"
+  weight = 3
+[[navbar]]
+  identifier = "gallery"
+  name = "Galleria"
+  url = "/it-IT/gallery/"
+  weight = 4

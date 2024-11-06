@@ -1,15 +1,81 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Welcome on sarilee</title><link>http://sarilee.art/it-it/</link><description>Recent content in Welcome on sarilee</description><generator>Hugo -- gohugo.io</generator><language>it-IT</language><atom:link href="http://sarilee.art/it-it/index.xml" rel="self" type="application/rss+xml"/><item><title>About me</title><link>http://sarilee.art/it-it/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://sarilee.art/it-it/about/</guid><description>&lt;h1 id="chi-sono" class="header-anchor-wrapper">Chi sono
-&lt;a href="#chi-sono" class="header-anchor-link">
-&lt;svg width="16px" height="16px" viewBox="0 0 24 24">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome on sarilee</title>
+    <link>http://localhost:1313/it-it/</link>
+    <description>Recent content in Welcome on sarilee</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-IT</language><atom:link href="http://localhost:1313/it-it/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About me</title>
+      <link>http://localhost:1313/it-it/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/it-it/about/</guid>
+      <description>&lt;h1 id=&#34;chi-sono&#34; class=&#34;header-anchor-wrapper&#34;&gt;Chi sono
+  &lt;a href=&#34;#chi-sono&#34; class=&#34;header-anchor-link&#34;&gt;
+    &lt;svg width=&#34;16px&#34; height=&#34;16px&#34; viewBox=&#34;0 0 24 24&#34;&gt;
 &lt;svg
-xmlns="http://www.w3.org/2000/svg"
-width="24" height="24" viewBox="0 0 24 24" fill="none"
-stroke="currentColor" stroke-width="2" stroke-linecap="round"
-stroke-linejoin="round">
-&lt;line x1="4" y1="9" x2="20" y2="9">&lt;/line>&lt;line x1="4" y1="15" x2="20" y2="15">&lt;/line>&lt;line x1="10" y1="3" x2="8" y2="21">&lt;/line>&lt;line x1="16" y1="3" x2="14" y2="21">&lt;/line>
-&lt;/svg>
-&lt;/svg>
-&lt;/a>
-&lt;/h1>
-&lt;p>Sono nata a Roma nel 1987 e attualmente vivo a Berlino.&lt;/p>
-&lt;p>Da quando ero una bambina, ho sempre amato disegnare e creare storie: quando ho guardato il primo cartone animato (Sailor Moon) e scoperto il mondo del manga giapponese, una luce si è accesa in me.&lt;/p></description></item></channel></rss>
+    xmlns=&#34;http://www.w3.org/2000/svg&#34;
+    width=&#34;24&#34; height=&#34;24&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34;
+    stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34;
+    stroke-linejoin=&#34;round&#34;&gt;
+    &lt;line x1=&#34;4&#34; y1=&#34;9&#34; x2=&#34;20&#34; y2=&#34;9&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;4&#34; y1=&#34;15&#34; x2=&#34;20&#34; y2=&#34;15&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;10&#34; y1=&#34;3&#34; x2=&#34;8&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;16&#34; y1=&#34;3&#34; x2=&#34;14&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;
+&lt;/svg&gt;
+
+&lt;/svg&gt;
+  &lt;/a&gt;
+&lt;/h1&gt;
+
+&lt;p&gt;Sono nata a Roma nel 1987 e attualmente vivo a Berlino.&lt;/p&gt;
+&lt;p&gt;Da quando ero una bambina, ho sempre amato disegnare e creare storie: quando ho guardato il primo cartone animato (Sailor Moon) e scoperto il mondo del manga giapponese, una luce si è accesa in me.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/it-it/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/it-it/contact/</guid>
+      <description>&lt;h1 id=&#34;contatto&#34; class=&#34;header-anchor-wrapper&#34;&gt;Contatto
+  &lt;a href=&#34;#contatto&#34; class=&#34;header-anchor-link&#34;&gt;
+    &lt;svg width=&#34;16px&#34; height=&#34;16px&#34; viewBox=&#34;0 0 24 24&#34;&gt;
+&lt;svg
+    xmlns=&#34;http://www.w3.org/2000/svg&#34;
+    width=&#34;24&#34; height=&#34;24&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34;
+    stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34;
+    stroke-linejoin=&#34;round&#34;&gt;
+    &lt;line x1=&#34;4&#34; y1=&#34;9&#34; x2=&#34;20&#34; y2=&#34;9&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;4&#34; y1=&#34;15&#34; x2=&#34;20&#34; y2=&#34;15&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;10&#34; y1=&#34;3&#34; x2=&#34;8&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;16&#34; y1=&#34;3&#34; x2=&#34;14&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;
+&lt;/svg&gt;
+
+&lt;/svg&gt;
+  &lt;/a&gt;
+&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;mailto:sarilee.manga@gmail.com&#34;&gt;sarilee.manga@gmail.com&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gallery</title>
+      <link>http://localhost:1313/it-it/gallery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/it-it/gallery/</guid>
+      <description>&lt;h1 id=&#34;p-styletext-aligncentermy-drawingsphr&#34; class=&#34;header-anchor-wrapper&#34;&gt;&lt;p style=&#34;text-align:center;&#34;&gt;My drawings&lt;/p&gt;&lt;hr&gt;
+  &lt;a href=&#34;#p-styletext-aligncentermy-drawingsphr&#34; class=&#34;header-anchor-link&#34;&gt;
+    &lt;svg width=&#34;16px&#34; height=&#34;16px&#34; viewBox=&#34;0 0 24 24&#34;&gt;
+&lt;svg
+    xmlns=&#34;http://www.w3.org/2000/svg&#34;
+    width=&#34;24&#34; height=&#34;24&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34;
+    stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34;
+    stroke-linejoin=&#34;round&#34;&gt;
+    &lt;line x1=&#34;4&#34; y1=&#34;9&#34; x2=&#34;20&#34; y2=&#34;9&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;4&#34; y1=&#34;15&#34; x2=&#34;20&#34; y2=&#34;15&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;10&#34; y1=&#34;3&#34; x2=&#34;8&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;16&#34; y1=&#34;3&#34; x2=&#34;14&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;
+&lt;/svg&gt;
+
+&lt;/svg&gt;
+  &lt;/a&gt;
+&lt;/h1&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
